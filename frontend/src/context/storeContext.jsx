@@ -7,7 +7,7 @@ export const StoreContext=createContext(null);
 const StoreContextProvider=(props)=>{
     const [cartItems,setCartItems]=useState({});
 
-    const url=`http://localhost:4000`
+    const url=`https://food-del-app-runu.onrender.com`
 
     //create a state variable to store the token
     const [token,settoken]=useState("");
